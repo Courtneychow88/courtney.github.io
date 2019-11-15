@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://courtneychow88.github.io</id>
-    <title>Courtney</title>
-    <updated>2019-11-15T05:26:23.637Z</updated>
+    <title>Courtney Chow</title>
+    <updated>2019-11-15T05:30:39.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://courtneychow88.github.io"/>
     <link rel="self" href="https://courtneychow88.github.io/atom.xml"/>
     <subtitle>善终如始。</subtitle>
     <logo>https://courtneychow88.github.io/images/avatar.png</logo>
     <icon>https://courtneychow88.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Courtney</rights>
+    <rights>All rights reserved 2019, Courtney Chow</rights>
     <entry>
         <title type="html"><![CDATA[😇A Relaxation Method Daily😇]]></title>
         <id>https://courtneychow88.github.io/post/a-relaxation-method-daily</id>
