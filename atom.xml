@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://courtneychow88.github.io</id>
     <title>Courtney Chow</title>
-    <updated>2020-01-16T07:31:00.661Z</updated>
+    <updated>2020-03-13T10:59:18.727Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://courtneychow88.github.io"/>
     <link rel="self" href="https://courtneychow88.github.io/atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://courtneychow88.github.io/images/avatar.png</logo>
     <icon>https://courtneychow88.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Courtney Chow</rights>
+    <entry>
+        <title type="html"><![CDATA[什么是CSAT及如何度量CSAT（客户满意度）?]]></title>
+        <id>https://courtneychow88.github.io/post/shi-me-shi-csat-ji-ru-he-du-liang-csatke-hu-man-yi-du</id>
+        <link href="https://courtneychow88.github.io/post/shi-me-shi-csat-ji-ru-he-du-liang-csatke-hu-man-yi-du">
+        </link>
+        <updated>2020-03-13T10:54:49.000Z</updated>
+        <content type="html"><![CDATA[<p>CSAT是客户满意度的缩写，作为一个核心表现指标，它被广泛地运用在评估和追踪客户对当前组织或企业提供的产品是否感到满意。</p>
+<h2 id="csat如何被度量">CSAT如何被度量？</h2>
+<p>CSAT is measured by one or more variations of this question that usually appears at the end of a customer feedback survey:<br>
+CSAT通常出现子客户反馈问卷的最底部，由一个或多个选项构成。例如：</p>
+<blockquote>
+<p>请为你所收到的服务或产品进行打分（1-5分制）：</p>
+</blockquote>
+<ol>
+<li>非常不满意</li>
+<li>不满意</li>
+<li>中立，没有不满意或满意</li>
+<li>满意</li>
+<li>非常满意<br>
+<img src="https://courtneychow88.github.io/post-images/1584097030862.png" alt=""></li>
+</ol>
+<p>问卷所收集到的数据结果，可以以平均分的方式表现综合客户满意度评分（Composite Customer Satisfaction Score），但是CSAT通常以百分比出现：这个客户100%感到满意，或这个客户0%感到不满意。（这个翻译有点怪，他的意思是说，一个客户要么是满意，要么其实是不满意的。）</p>
+<h2 id="计算csat">计算CSAT</h2>
+<p>为了计算CSAT，只有选择4（满意） 或 5（非常满意）的样本数据才会纳入计算。事实证明，对反应客户留存率来说，只有使用最高分数来评估，才是最准确的。<br>
+感到满意的客户数（4分和5分）/ 所有客户数 x 100% = % 客户觉得满意</p>
+<h2 id="那csat和nps有什么区别呢">那CSAT和NPS有什么区别呢？</h2>
+<p>CSAT衡量客户对产品或服务的满意程度，同时NPS衡量客户对品牌或组织的忠诚度。</p>
+<p>CSAT 的目标是收集客户对一场交互、产品或活动的及时反馈，但当面对想要衡量客户与企业之间的长期关系时，CSAT的作用就受限了。</p>
+<p>CAST可以采用多个问题的组合，去采集特定触点的客户体验反馈。例如：请为我们的电话服务/物流服务进行打分？</p>
+<p>相反的，NPS 是一个简单独立的问题，它衡量了客户的忠诚度。”你有多大的可能性会向同事和家人推荐我们的品牌、组织、服务？“这问题，旨在让消费者从一个更大的视角去度量品牌、产品，并且关注到消费者自己的意图（是否愿意推荐），而不是总体的满意程度。</p>
+<h2 id="用好csat">用好CSAT</h2>
+<p>像NPS一样，CSAT只是一种对客户体验的度量方式。你针对这些分数所采取的行动和变革才是最重要的。CSAT（和NPS）分数需要后续投入进一步用户研究定性分析，才能帮助你采取行动，提升关键领域。</p>
+<h2 id="把csat和收入关联起来">把CSAT和收入关联起来</h2>
+<p>在真空中度量客户满意度毫无裨益。但当你了解到满意度是如何和收入关联在一起时，影响市场的营销动作才会生效。追踪在每个客户身上产生的盈利数据，被称为客户生命周期价值。这是你称为客户体验大师的下一步动作。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何获取系统性支持/ How to Obtain Systematic Support ]]></title>
         <id>https://courtneychow88.github.io/post/how_to_1</id>
