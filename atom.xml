@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://courtneychow88.github.io</id>
     <title>Courtney Chow</title>
-    <updated>2020-04-01T09:38:49.395Z</updated>
+    <updated>2020-05-25T08:16:00.313Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://courtneychow88.github.io"/>
     <link rel="self" href="https://courtneychow88.github.io/atom.xml"/>
@@ -10,6 +10,114 @@
     <logo>https://courtneychow88.github.io/images/avatar.png</logo>
     <icon>https://courtneychow88.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Courtney Chow</rights>
+    <entry>
+        <title type="html"><![CDATA[我们是怎么做产品的：金数据产品团队的工作手册]]></title>
+        <id>https://courtneychow88.github.io/post/how-does-jinshuju-make-product/</id>
+        <link href="https://courtneychow88.github.io/post/how-does-jinshuju-make-product/">
+        </link>
+        <updated>2020-05-25T08:06:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近在整理工作这些年留下的文字，发现这样一篇工作手册。这个手册是正好是在一段非常艰难的时期产出的。愈是艰难时，愈要珍惜羽毛。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近在整理工作这些年留下的文字，发现这样一篇工作手册。这个手册是正好是在一段非常艰难的时期产出的。愈是艰难时，愈要珍惜羽毛。</p>
+<!-- more -->
+<p>产品经理的工作是一门关于设计、业务、沟通的艺术，我们的工作价值是为用户创造可信赖的产品，帮助用户在领域的实现价值。同时，产品经理需要去调用的是各个部门的资源，我们的工作交付物是故事卡，并且随着故事卡的上线去追踪用户是否对功能产生价值认同，以实现产品的商业价值。</p>
+<p>一名合格的产品经理，所秉持的标准应该是「一个故事，既能够让业务人员了解如何使用某项功能，也能让设计人员理解业务目的，明确设计标准，同时技术人员能够了解功能业务价值并且有清晰的验收条件进行实施」。</p>
+<p>这对任何厂商的产品团队都不是一件容易的事情，冗长的PRD和MRD被我们所唾弃，零散的Stories和验收条件又让开发、测试、设计都面临反复施工的问题。<br>
+所以，是时候去设定一个金数据产品团队的标准。让整个业务、产品、设计、开发团队，都能围绕标准来工作，减少冗余信息，提升效率。</p>
+<h3 id="统一的交付流程">统一的交付流程</h3>
+<p>产品经理要做的事情是让正确的事情持续发生。如何去评价什么事情是正确的，是产品经理团队需要不断磨合，甚至是相互较量的结果。在相互磨合较量的过程中，我们融合每个人的创意，形成统一的价值观，确定我们当前认为最正确的事情。</p>
+<p>所谓的统一的交付流程是，当Story分析完成后，产品经理内部需要对该Story进行整体的评估。评估的标准是：</p>
+<ol>
+<li>这个Story与我们当前最重要的业务目标是否一致？</li>
+<li>这个Story的受益者是谁？我们将取得什么收益？</li>
+<li>这个Story是否符合基本的交付原则？（价值稳定、交付清晰、逻辑覆盖完整）</li>
+</ol>
+<h3 id="统一的交付物">统一的交付物</h3>
+<figure data-type="image" tabindex="1"><img src="https://courtneychow88.github.io/post-images/1590394066367.png" alt="" loading="lazy"></figure>
+<h3 id="沟通">沟通</h3>
+<p>沟通是团队黏合在一起的核心，我们因为共同的价值合作，沟通让所有的事情能够朝着既定的目标高效前行。</p>
+<ol>
+<li>保证沟通是有效的<br>
+           不是所有的评审都是有效的，再复杂的Story30分钟内应该也可以沟通完成了。如果超过30分钟都讲不明白一个故事卡，那这个故事卡大概率是不合格的。</li>
+</ol>
+<p>2.  保证提前准备好沟通的方案，可以节约每个人的时间<br>
+没有准备好的会议是不值得开的，请独立保证你的沟通是有效的。</p>
+<p>3.  保证各个团队得到的信息的一致的<br>
+           每个团队都应该清楚的了解需求背景和业务价值，所以不要畏惧和开发沟通时讨论业务价值，开发团队会因此而觉得更有成就感的。</p>
+<ol start="4">
+<li>沟通的流程<br>
+         产品经理内部评审 -&gt; CS/Sales Showcase / 设计团队kickoff -&gt; 开发团队kickoff -&gt; 已上线功能的定期回溯</li>
+</ol>
+<p><strong>附：故事卡产出应该符合的标准，INVEST原则</strong></p>
+<p>在产品经理内部评审的Story可以是史诗级别的Story。但是当Story交付给设计、开发时，需要遵循INVEST原则对Story进行拆分。</p>
+<p>● Independent<br>
+每个Story是独立的，相互不依赖的。当Story之间已经出现互相以来，需要对齐进行合并。<br>
+● Negotiable<br>
+凡事都是可以商量的。<br>
+● Valuable <br>
+每一个独立的故事卡要交付清晰的价值。<br>
+● Estimatable		<br>
+          可评估的，如果故事卡太大，无异于不可评估工作量不可评估交付时间不可评估影响。<br>
+● Small<br>
+小，每个卡要尽可能的小。<br>
+● Testable 	<br>
+可测试的。可测试需要测试完整的流程，确保每个卡都是可工作的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我们是怎么做产品的：金数据产品团队的工作手册]]></title>
+        <id>https://courtneychow88.github.io/post/wo-men-shi-zen-me-zuo-chan-pin-de-jin-shu-ju-chan-pin-tuan-dui-de-gong-zuo-shou-ce/</id>
+        <link href="https://courtneychow88.github.io/post/wo-men-shi-zen-me-zuo-chan-pin-de-jin-shu-ju-chan-pin-tuan-dui-de-gong-zuo-shou-ce/">
+        </link>
+        <updated>2020-05-25T08:06:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近在整理工作这些年留下的文字，发现这样一篇工作手册。这个手册是正好是在一段非常艰难的时期产出的。愈是艰难时，愈要珍惜羽毛。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近在整理工作这些年留下的文字，发现这样一篇工作手册。这个手册是正好是在一段非常艰难的时期产出的。愈是艰难时，愈要珍惜羽毛。</p>
+<!-- more -->
+<p>产品经理的工作是一门关于设计、业务、沟通的艺术，我们的工作价值是为用户创造可信赖的产品，帮助用户在领域的实现价值。同时，产品经理需要去调用的是各个部门的资源，我们的工作交付物是故事卡，并且随着故事卡的上线去追踪用户是否对功能产生价值认同，以实现产品的商业价值。</p>
+<p>一名合格的产品经理，所秉持的标准应该是「一个故事，既能够让业务人员了解如何使用某项功能，也能让设计人员理解业务目的，明确设计标准，同时技术人员能够了解功能业务价值并且有清晰的验收条件进行实施」。</p>
+<p>这对任何厂商的产品团队都不是一件容易的事情，冗长的PRD和MRD被我们所唾弃，零散的Stories和验收条件又让开发、测试、设计都面临反复施工的问题。<br>
+所以，是时候去设定一个金数据产品团队的标准。让整个业务、产品、设计、开发团队，都能围绕标准来工作，减少冗余信息，提升效率。</p>
+<h3 id="统一的交付流程">统一的交付流程</h3>
+<p>产品经理要做的事情是让正确的事情持续发生。如何去评价什么事情是正确的，是产品经理团队需要不断磨合，甚至是相互较量的结果。在相互磨合较量的过程中，我们融合每个人的创意，形成统一的价值观，确定我们当前认为最正确的事情。</p>
+<p>所谓的统一的交付流程是，当Story分析完成后，产品经理内部需要对该Story进行整体的评估。评估的标准是：</p>
+<ol>
+<li>这个Story与我们当前最重要的业务目标是否一致？</li>
+<li>这个Story的受益者是谁？我们将取得什么收益？</li>
+<li>这个Story是否符合基本的交付原则？（价值稳定、交付清晰、逻辑覆盖完整）</li>
+</ol>
+<h3 id="统一的交付物">统一的交付物</h3>
+<figure data-type="image" tabindex="1"><img src="https://courtneychow88.github.io/post-images/1590394066367.png" alt="" loading="lazy"></figure>
+<h3 id="沟通">沟通</h3>
+<p>沟通是团队黏合在一起的核心，我们因为共同的价值合作，沟通让所有的事情能够朝着既定的目标高效前行。</p>
+<ol>
+<li>保证沟通是有效的<br>
+           不是所有的评审都是有效的，再复杂的Story30分钟内应该也可以沟通完成了。如果超过30分钟都讲不明白一个故事卡，那这个故事卡大概率是不合格的。</li>
+</ol>
+<p>2.  保证提前准备好沟通的方案，可以节约每个人的时间<br>
+没有准备好的会议是不值得开的，请独立保证你的沟通是有效的。</p>
+<p>3.  保证各个团队得到的信息的一致的<br>
+           每个团队都应该清楚的了解需求背景和业务价值，所以不要畏惧和开发沟通时讨论业务价值，开发团队会因此而觉得更有成就感的。</p>
+<ol start="4">
+<li>沟通的流程<br>
+         产品经理内部评审 -&gt; CS/Sales Showcase / 设计团队kickoff -&gt; 开发团队kickoff -&gt; 已上线功能的定期回溯</li>
+</ol>
+<p><strong>附：故事卡产出应该符合的标准，INVEST原则</strong></p>
+<p>在产品经理内部评审的Story可以是史诗级别的Story。但是当Story交付给设计、开发时，需要遵循INVEST原则对Story进行拆分。</p>
+<p>● Independent<br>
+每个Story是独立的，相互不依赖的。当Story之间已经出现互相以来，需要对齐进行合并。<br>
+● Negotiable<br>
+凡事都是可以商量的。<br>
+● Valuable <br>
+每一个独立的故事卡要交付清晰的价值。<br>
+● Estimatable		<br>
+          可评估的，如果故事卡太大，无异于不可评估工作量不可评估交付时间不可评估影响。<br>
+● Small<br>
+小，每个卡要尽可能的小。<br>
+● Testable 	<br>
+可测试的。可测试需要测试完整的流程，确保每个卡都是可工作的。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[隔绝和独立之路 ，读完《你当像鸟飞往你的山》]]></title>
         <id>https://courtneychow88.github.io/post/educated_review/</id>
