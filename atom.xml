@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://courtneychow88.github.io</id>
     <title>Courtney Chow</title>
-    <updated>2021-04-14T15:07:19.510Z</updated>
+    <updated>2021-08-12T10:49:47.387Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://courtneychow88.github.io"/>
     <link rel="self" href="https://courtneychow88.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://courtneychow88.github.io/images/avatar.png</logo>
     <icon>https://courtneychow88.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Courtney Chow</rights>
+    <entry>
+        <title type="html"><![CDATA[保持脆弱]]></title>
+        <id>https://courtneychow88.github.io/post/stay-vulnerability/</id>
+        <link href="https://courtneychow88.github.io/post/stay-vulnerability/">
+        </link>
+        <updated>2021-08-12T10:46:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>剑拔弩张的沟通或者是过度表达，在产品这个角色上占了更大的比例。倾听和接受反而变成了一种稀有的品质。保持脆弱，让我们离这个世界更近一点。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>剑拔弩张的沟通或者是过度表达，在产品这个角色上占了更大的比例。倾听和接受反而变成了一种稀有的品质。保持脆弱，让我们离这个世界更近一点。</p>
+<!-- more -->
+<p>前段时间有客户来询，于是与Sales和他们约了一个会，主题很宽泛：“告诉我们你们能做点啥？” 会议开始之前，我把SDK环境准备好，准备了一个流程向对方展示，我把问题都列在一张纸上，自以为自己准备的挺充分。</p>
+<p>开始之前对方告诉我们，对方也把自己的产品总监约上，一起来听。会议开始了，我开始共享屏幕并且按照一张纸一条一条地把我准备好的流程进行演示，自觉非常完整。罢了，对方商务表示没有其他问题。产品总监登场：“啊，感谢周老师为我们演示。我理解这个问题你们一定做的非常好的，但是我还是有一个问题，你们的SDK是怎么集成的？” 我怒从中来：合着我说了半个小时白说了。于是强压住我的白眼，重新打开SDK向其展示。展示毕，双方就对接细节开始沟通。在整个过程中，对方产品总监都在不停打断我，讲述“陈述句”，而我也插入对方的表述，向其解释细节（此处打断并不是贬义，只是在表达2个产品角色沟通过程中的“交锋”）。同事终于看不下去了，mute电脑后向我吐槽：“你不觉得你们产品经理真的是一模一样的吗，不听对方说话。”</p>
+<p>这次电话会议结束后，我大吃一惊：产品角色是不听人话的吗？于是，在后续的时间，我和内外部的产品开会时都暗暗观察，果不其然，大部分人都喜欢说：“说白了就是...”；“这不就是xxx方法？”；“我们能解决这个问题...”</p>
+<p>剑拔弩张的沟通或者是过度表达，在产品这个角色上占了更大的比例。倾听和接受反而变成了一种稀有的品质。</p>
+<p>几年前，我看过一本书：&quot;Daring Greatly&quot;，作者是美国休斯敦大学的社会工作学教授，Brené Brown。全书在讲Vulnerability（脆弱性）的力量，Brown的观点是，要获得幸福，与他人搭建有建设性关系，需要允许其他人看见真实的自己，建立接受被他人伤害的勇气。</p>
+<p>任何做产品相关角色的人都应该多一点脆弱，少一些防御。脆弱是创造力的来源，脆弱允许你观察和询问周遭的世界，面对你害怕的事情，学会理解其他人的挣扎，并且利用内化后的能力创造一些正向价值的结果。</p>
+<p>这意味着得放下所有的防御，承认世界上有我们不了解、解决不了的问题，但是去直面和拥抱这些问题。通过别人的眼睛，看到更大的现实世界，感受他们的痛苦和快乐。当我们定位到问题，再想办法去为了「人」去解决问题，创造新价值和体验，即便面对这些问题的过程其实非常痛苦。</p>
+<p>Brown 在Facebook上发post说，Vulnerability 是对勇气最精确的描述，因为勇气(Courage)的词根是&quot;cor&quot;, 在拉丁文中是“心”（heart），courage的原始释义是“全心全意讲述你自己的故事。”（“To speak one's mind by telling all one's heart.”）</p>
+<p>朋友，保持脆弱，保持勇气。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[读《读库》2021]]></title>
         <id>https://courtneychow88.github.io/post/du-lesslessdu-ku-greatergreater-2021/</id>
