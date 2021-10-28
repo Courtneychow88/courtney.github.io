@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://courtneychow88.github.io</id>
     <title>Courtney Chow</title>
-    <updated>2021-10-28T07:17:09.915Z</updated>
+    <updated>2021-10-28T07:17:54.936Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://courtneychow88.github.io"/>
     <link rel="self" href="https://courtneychow88.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2021, Courtney Chow</rights>
     <entry>
         <title type="html"><![CDATA[如何保持独立思考]]></title>
-        <id>https://courtneychow88.github.io/post/ru-he-bao-chi-du-li-si-kao/</id>
-        <link href="https://courtneychow88.github.io/post/ru-he-bao-chi-du-li-si-kao/">
+        <id>https://courtneychow88.github.io/post/think-/</id>
+        <link href="https://courtneychow88.github.io/post/think-/">
         </link>
         <updated>2021-10-28T07:12:59.000Z</updated>
         <summary type="html"><![CDATA[<p>这篇文章受到 <a href="http://www.paulgraham.com/bio.html">Paul Graham</a>的一篇文章：<a href="http://www.paulgraham.com/think.html"><em>How to Think for Yourself</em></a>的启发。</p>
