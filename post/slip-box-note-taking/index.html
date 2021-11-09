@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>卡片盒笔记工作法初探 | Courtney Chow</title>
+<meta name="description" content="善终如始。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://courtneychow88.github.io/favicon.ico?v=1636435424033">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://courtneychow88.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://courtneychow88.github.io">
+        <img class="avatar" src="https://courtneychow88.github.io/images/avatar.png?v=1636435424033" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://courtneychow88.github.io">
+        <h1 class="site-title">Courtney Chow</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://courtneychow88.github.io/post-images/slip-box-note-taking.png')">
+            </div>
+          
+          <h2 class="post-title">卡片盒笔记工作法初探</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-11-09</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://courtneychow88.github.io/tag/UMNVivXty/">
+                    日常
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://courtneychow88.github.io/tag/P_YN5weOz/">
+                    产品
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p>本文是10月22日成都线下活动「不颓废青年Up指南」中，我的分享的文字稿。</p>
+<!-- more -->
+<h1 id="卡片盒笔记工作法">卡片盒笔记工作法</h1>
+<p>大家好，我叫周旖，是一家在线数据收集工具，金数据，的产品经理。作为产品经理，我每天都会处理非常大量的信息。这些信息可能是团队的设计方案、客户访谈、新技术趋势和行业调查。记录笔记，几乎是我赖以生存的技能，我时长在想，我要是没有手机的话，应该可活下去，这玩意买一个新的就行了。但是，离开我电脑里的笔记，我肯定没办法正常生活和工作。</p>
+<h1 id="笔记为什么那么重要">笔记为什么那么重要</h1>
+<p>当然会有人也问这个问题，为什么笔记非常重要？我不记笔记不也工作生活地好好的吗？当然当然，如果你有一目十行过目不忘的能力，也许你完全不需要笔记，只靠一张嘴就可以制霸天下。但是我没有，我相信大部分的人和我一样都没有这样的能力。所以我们需要一种机制或方法，能够帮助我们的大脑更好地记忆、内化、学习，而不是阻碍我们的工作。</p>
+<h1 id="那我们正确地记笔记了吗">那我们正确地记笔记了吗？</h1>
+<p>不管你是跟我原来一样，使用纸笔拼命地写，which 只让我得到了一个手指上的结巴。还是像其他人一样，使用电脑来记笔记。恐怕，最终你得到的结果是这样的（乱七八糟的文件夹）。<br>
+这个界面熟悉吗？</p>
+<figure data-type="image" tabindex="1"><img src="https://courtneychow88.github.io/post-images/1636435000725.png" alt="" loading="lazy"></figure>
+<h1 id="文件夹就像一个黑洞">文件夹就像一个黑洞</h1>
+<p>文件夹就像一个黑洞一样，把我们的思考、想法吸进去，再也不吐出来。大家对这个场景应该很熟悉吧：打开一个叫做笔记的应用或者文件夹，里面躺满了命名很可疑的文件。然后你充满怀疑地点击一个文件：里面写了两个字。<br>
+<img src="https://courtneychow88.github.io/post-images/1636435039526.png" alt="" loading="lazy"></p>
+<h1 id="单一笔记是不可靠的">单一笔记，是不可靠的</h1>
+<p>大家有没有过这种体验。你正在读一本书，书里提到一个新的概念。这个时候你灵光一闪，「哦，我曾经在另外一本书里看到过这观点。」但是，你打死也想不起来那本书是什么。<br>
+或者，你写下这样一个卡片，但是，过了一年你在某个地方翻出来这张纸。你完全不知道当时是为什么写下这个东西了。<br>
+<img src="https://courtneychow88.github.io/post-images/1636435128753.png" alt="" loading="lazy"><br>
+所以，让我们来换一个更性感的标题</p>
+<h1 id="当-知识工作者-在谈论效率的时候我们在谈论什么">当 知识工作者 在谈论效率的时候，我们在谈论什么？</h1>
+<p>我得问一下，现场没有靠纯体力劳动工作的人吧？那各位，我们都是知识工作者。我们赖以生存的基本技能是知识带来我们的，我们的主要生产材料，就是知识本身。我们利用已有的，或者新学习的信息和只是，参与生产和分发知识产品的工作链。</p>
+<p>在当下这个信息爆炸的时期，我们根本就不缺信息。我们缺乏的是，如何在非结构化的工作流程中，高效累积有用的知识，同时在你需要他的时候，能够随时随地在你的数据库（大脑）里调用它。<br>
+<img src="https://courtneychow88.github.io/post-images/1636435207986.png" alt="" loading="lazy"><br>
+这几乎是不可能的事情，因为人的大脑不会记住所有的事情。如果没有有效的策略，那我们刚刚提到的脏笔记和想不起来事儿，就会重复发生，永无止境。</p>
+<p>所以，我向大家介绍一个我最近开始研究的新策略。</p>
+<h1 id="卡片盒笔记">卡片盒笔记</h1>
+<p>德国的一名社会学家卢曼发明了一套笔记策略。简单来说，卡片盒笔记法，就是把一个想法写在一张卡片上，然后放到盒子里，卡片与卡片之间有一套编号紧密地联系起来。</p>
+<p>卢曼为自己打造了这个卡片盒柜子，他把这个柜子比喻成他最好的伙伴。同时，他利用卡片盒的魔力，在一生中创造了90000张卡片，并且用他们组合粘贴，写出了70余本书。我在过去是不那么在意笔记应该怎么记的，总觉得文档写的好才是最重要。长时间对笔记策略的忽视，产生了非常爆炸的结果：我发现时间一长，曾经学习过的内容没有转化成我的知识，要用到的时候还得重来一遍。又或者是，我看过的一本很重要的书，根本不记得作者基础论述的观点和依据。<br>
+<img src="https://courtneychow88.github.io/post-images/1636435236028.png" alt="" loading="lazy"></p>
+<h1 id="好的笔记是什么">好的笔记是什么？</h1>
+<ul>
+<li>是一种思考工具</li>
+<li>是思维网络，可靠、牢固</li>
+<li>捕获灵感的网</li>
+</ul>
+<h1 id="这个策略的好处是">这个策略的好处是？</h1>
+<p>卡片盒笔记方法，或者是笔记策略。就是为了解决如何将信息累积成知识的目的产生的。</p>
+<ul>
+<li>更好地学习和搜集新信息</li>
+<li>更好地提取曾学过的知识</li>
+</ul>
+<p>就像任何新游戏一样，你需要严格的训练自己。直到如何发出技能变成一种肌肉记忆。所以，让我们来看看这个游戏的规则是什么</p>
+<h1 id="写好笔记的原则">写好笔记的原则</h1>
+<ul>
+<li>
+<p>一篇笔记是一个原子(Atom)：我们在一篇笔记中只说一个概念。它必须是完整的想法/思考/结论。当有任何新概念出现，你觉得这个新概念也需要写出来，新开一篇笔记。这样你就可以保证每个笔记篇幅的大小合适，内容也是完整的。当你在组合粘贴这些笔记的时候，他们是完全可以重用的。</p>
+</li>
+<li>
+<p>笔记之间应该有非常紧密地双向链接。原子化保证了每个笔记在被关联的时候，都是可以被重用的。紧密链接的原则，让我们在写一篇笔记的时候，都仔细斟酌这个笔记和我之前思考过的内容有没有联系。当你做了非常多的双向关联时，你会发现你可以在思维的网络里快速导航。</p>
+</li>
+<li>
+<p>笔记应该是概念为导向。我们应该每写一篇笔记，都只描述一个概念。我们不应该用人名、书名、作者或者是公司等内容作为笔记构建的主要内容。随着一个概念研究的深入，你会发现以上的内容很多时候会穿插在一个或多个概念里。这是我目前发现倒数第二难的原则。</p>
+</li>
+<li>
+<p>最后一个，也是最难的一个。笔记的中心地位，是你自己的想法，而不是重复别人的说法。当我们在写读书笔记的时候，这个最明显不过了。我们经常都摘抄原作者的话，我们通常以为写一遍之后这个知识就是自己的了。但是现实总是打我的脸。只有经过自己思考，重述和总结的内容才是自己的。随时随时都要保持说你自己的话，这样使你的思考和创作都更有说服力。</p>
+</li>
+</ul>
+<h1 id="我用这个策略做了些什么">我用这个策略做了些什么</h1>
+<p>最近几个月，我所有新的笔记都采用了这个策略。得到了这样一个网络图。<br>
+这中间的每一个点，就是一个单独笔记，每一个笔记都和其他笔记联系起来，当然也有一些完全不关联的孤儿。<br>
+<img src="https://courtneychow88.github.io/post-images/1636435304083.png" alt="" loading="lazy"></p>
+<h1 id="如何开始">如何开始：</h1>
+<p>寻找能够以你的思维方式看待世界的工作工具，并随着时间的推移与您一起成长的工具</p>
+<h1 id="推荐">推荐</h1>
+<ul>
+<li>Obsidian</li>
+<li>Roam Research</li>
+<li>Flomo笔记</li>
+</ul>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://courtneychow88.github.io/post/think/">
+              <h3 class="post-title">
+                下一篇：如何保持独立思考
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">善终如始。</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  使用<a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>客户端写作 | <a class="rss" href="https://courtneychow88.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
