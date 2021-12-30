@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://courtneychow88.github.io</id>
     <title>Courtney Chow</title>
-    <updated>2021-12-30T05:01:16.294Z</updated>
+    <updated>2021-12-30T05:02:29.972Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://courtneychow88.github.io"/>
     <link rel="self" href="https://courtneychow88.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://courtneychow88.github.io/images/avatar.png</logo>
     <icon>https://courtneychow88.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Courtney Chow</rights>
+    <entry>
+        <title type="html"><![CDATA[20211014 Alice & Courtney Discussion on XM Pricing]]></title>
+        <id>https://courtneychow88.github.io/post/20211014-alice-and-courtney-discussion-on-xm-pricing/</id>
+        <link href="https://courtneychow88.github.io/post/20211014-alice-and-courtney-discussion-on-xm-pricing/">
+        </link>
+        <updated>2021-12-30T04:57:45.000Z</updated>
+        <content type="html"><![CDATA[<h4 id="浩客用户的心理门槛">浩客用户的心理门槛</h4>
+<p>客户体验成熟度是指，客户在哪个层级将客户体验作为主要的度量标准和KPI标准，并且驱动改进发生。</p>
+<p>根据我们的猜测，中国客户在客户体验成熟度上都处于比较早期和初级的状态：即知道客户满意度的比客户体验的多；知道要做客户体验，但是不知道从何入手的多；梳理了客户旅程，但是客户旅程是来自于「虚拟推演」的多。</p>
+<h4 id="大公司和小公司分别有以下的倾向">大公司和小公司分别有以下的倾向</h4>
+<ul>
+<li>
+<p>大型客户理不清楚问题：客户其实梳理不清楚，前期的梳理来自于咨询公司参与，在虚拟过程中梳理出大致的旅程，全集团开始部署实施。大型客户的变动又慢，导致一个journey建好了，可能几年都不会变</p>
+</li>
+<li>
+<p>小客户没有「流程」，可能基于一些事件会收集客户反馈，搞不清楚什么是旅程、场景、驱动因子。</p>
+</li>
+</ul>
+<h4 id="客户认知门槛对产品设计的影响">客户认知门槛对产品设计的影响</h4>
+<p>因此为了建立用户认知，产品在最开始的引导上，就应该把客户旅程放出来，给客户有一个概念，客户体验管理是一个旅程，每一个点放在一起管理才是客户体验，否则这和普通的满意度调研没有区别。</p>
+<h4 id="其他">其他</h4>
+<ul>
+<li>
+<p>网站 JS SDK 很老气的需求了。</p>
+</li>
+<li>
+<p>网站反馈和网页嵌入的需求分野不明显，客户听不懂，也不想晓得，价值说不清楚</p>
+</li>
+<li>
+<p>投放的这一系列，对于销售来说都不好理解</p>
+</li>
+<li>
+<p>对接客户的投放系统是一个「老板需求」</p>
+</li>
+<li>
+<p>工单能不能基于微信? 中国客户的使用习惯</p>
+</li>
+<li>
+<p>价格心理策略：客户的业务在哪个曾经决定了对价格的心理。中小型客户仍然是成本优先，大型客户目前还不太清楚。</p>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[卡片盒笔记工作法初探]]></title>
         <id>https://courtneychow88.github.io/post/slip-box-note-taking/</id>
@@ -330,27 +373,6 @@ Luka：是我的情人啊！<br>
 <p>没有目标的去建立支持体系，你就会获得Nothing。<br>
 如果你想要Free(轻松自由），那么你就会被人生收拾得服服帖帖。</p>
 <p>总之，我开始每天花20分钟整理乐理笔记。昨天终于搞明白了大调转位，洗澡时突然发现自己很快乐。 😽😽</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[早班机]]></title>
-        <id>https://courtneychow88.github.io/post/morning-flight/</id>
-        <link href="https://courtneychow88.github.io/post/morning-flight/">
-        </link>
-        <updated>2019-11-08T09:28:48.000Z</updated>
-        <summary type="html"><![CDATA[<p>团队分布多地工作，经常有早晚班机出差的经历。<br>
-一些小片段，记在笔记本上日后读起来颇值得玩味。日后再回忆起来，也会庆幸自己这股劲头吧。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>团队分布多地工作，经常有早晚班机出差的经历。<br>
-一些小片段，记在笔记本上日后读起来颇值得玩味。日后再回忆起来，也会庆幸自己这股劲头吧。</p>
-<!-- more -->
-<p>早班机</p>
-<p>在三万英尺的高空，瞥见朝阳</p>
-<p>墨玉、靛青、鱼肚白<br>
-像一只无形之手在涂抹一般往远方延伸<br>
-赭红、橙、又连接无际暗黑</p>
-<p>所有人等着手机闹铃<br>
-而我，在等待落地后的滴滴司机</p>
 ]]></content>
     </entry>
 </feed>
