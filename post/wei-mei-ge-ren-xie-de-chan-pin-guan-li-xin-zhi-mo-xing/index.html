@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>为每个人写的产品管理心智模型 | Courtney Chow</title>
+<meta name="description" content="善终如始。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://courtneychow88.github.io/favicon.ico?v=1644486782040">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://courtneychow88.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://courtneychow88.github.io">
+        <img class="avatar" src="https://courtneychow88.github.io/images/avatar.png?v=1644486782040" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://courtneychow88.github.io">
+        <h1 class="site-title">Courtney Chow</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">为每个人写的产品管理心智模型</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-02-10</span>
+            
+          </div>
+          <div class="post-content">
+            <h1 id="为每个人写的产品管理心智模型"><strong>为每个人写的产品管理心智模型</strong></h1>
+<p>出处: <a href="https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b">The Blackbox of Product Management</a></p>
+<p>Chu 的这篇文章中，每一种心智模型我都曾经应用到金数据的产品规划中。刚开始读觉得「网格」概念很僵硬，不好理解。其实非常像中文中的融会贯通，当你心理有几种思考方式，看到一个问题时，在多个思考方式中切换，寻找能产生最大影响的那一个。经过多次训练之后，就会产生一种直觉：在某个工作阶段应该关注shipping速度，在某个阶段关注「最终完成品」而不是「最轻松的解决方案」</p>
+<hr>
+<p>心智模型是一种对复杂过程或关系的简单表述。对个人来说，心智模型会随着时间累积，并且帮助每个人更快地做出更好的决定。</p>
+<p>举个例子：帕累托原理（the Pareto Principle，译者注：二八原则) 表明80%的产出自20%的工作。</p>
+<p>在产品管理的语境下，与其花时间去寻找100%的客户机会，你应该着墨在产生80%机遇的那20%的工作上。产品团队随时都在权衡取舍，结果通常是在发布的功能不支持20%复杂用例的客户。</p>
+<p>心智模型很厉害，但它的效果受限于推测的上下文。未解决这个问题，你不应该只依赖于一个或几个模型，而是持续构建一个心智模型网格，以便于能够更好地做决策。</p>
+<p>Charlie Munger（Berkshire Hathaway 副主席） 曾在一次关于如何增强智慧的演讲中，普及这个概念。</p>
+<blockquote>
+<p><em>什么是基础的、普世智慧？第一个规则是，如果你只是记住一些独立事实，尝试将他们挨个突破，你不可能学会任何东西。如果这些事实不是组合在网格理论上，那么你就没有可用的形态。<br>
+你得在脑海中有模型。然后再网格中布置这些模型，不管是直接地还是间接地。你可能留意到某些学生，只是直接记忆然后回想自己记住了什么。他们不管在学习还是生活中都很失败。你必须得把脑中的模型在网格上组织起来。<br>
+什么是模型？首先你得有多个模型。因为如果你只用一两个模型，那依赖人类的天性，你将会扭曲现实使其适合你自己的模型，或至少你自己这么想的。<br>
+常言道：「拿着锤子找钉子。」...... 但这是一种灾难式的思考方式，也是一种灾难式的在世界上运转的方式。所以你必须得有多个模型。</em></p>
+</blockquote>
+<p>本文概述了部分在我的产品管理职业生涯中非常有用的模型。如果我学习到了新的模型， 也将持续在本文更新。</p>
+<p>本文也不仅面向产品经理，而是面向产品团队中的所有人。产品思维并不是PM的权利，实际上在builders的受众，它会更有用。</p>
+<p>我们将会讨论一下几个方面的心智模型：</p>
+<ol>
+<li>资源投入</li>
+<li>设计和范围界定</li>
+<li>构建和迭代</li>
+</ol>
+<h1 id="资源投入">资源投入</h1>
+<p>接下来的一组心智模型有利于帮你思考：决策团队构建什么内容，或「在哪里投入资源」</p>
+<h2 id="投资回报roi">投资回报（RoI)</h2>
+<p>一个财务概念：每一块花出去的钱，能挣多少钱回来？在产品领域，将团队所有用的资源（钱、时间、人）视为投资，将对用户的影响视为回报。</p>
+<figure data-type="image" tabindex="1"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a129d7af-86c9-4fd8-85d8-90fab187486e/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用">这个模型为什么有用？</h3>
+<p>对产品团队来说，可用的资源是时间、钱、人（人数，以及拥有的技能）。当你在考虑多个项目的可能性时，永远选择那个会产生最大影响的项目。</p>
+<h2 id="交付的时间价值">交付的时间价值</h2>
+<p>早交付比晚交付更能对客户产生更大价值。</p>
+<figure data-type="image" tabindex="2"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b62cc0a8-f6ef-4f2c-b8a2-e80b8f040cb2/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-2">这个模型为什么有用？</h3>
+<p>在决定解决哪些问题或者选择机会时，你不能只比较功能特性。（只考虑功能时，产品团队永远只会考虑那个最大的feature）</p>
+<p>反之，为了做更好的投资决策，你应该考虑交付速度，并且在哪些能够快速交付的功能中投入更多资源。</p>
+<h2 id="时间轴">时间轴</h2>
+<p>和[交付的时间价值]相关，正确的投资决策与你引入的时间范围相关。例如在下图中，长时间来看，花3个月和9个月的成本区别不大。</p>
+<figure data-type="image" tabindex="3"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/744cfb29-5882-4d6d-a9f8-81be64a463c8/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-3">这个模型为什么有用？</h3>
+<p>选择「我们如何在未来3个月创造更大价值？」或「我们如何在未来3年创建更大价值？」会带来全然不同的结果，也会导致团队采取不同策略。<br>
+因此，和团队以及利益相关方对于时间范围保持一致，是首要讨论的问题。</p>
+<h2 id="期望值">期望值</h2>
+<p>预测未来是不完美的。相反，所有决策都会带来产出多种结果可能性。这些结果的可能性加权在一起就是决策的期望值。</p>
+<figure data-type="image" tabindex="4"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6e95f47-1008-4572-9ca2-a3945e837517/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-4">这个模型为什么有用？</h3>
+<p>考虑项目的最终影响时，列出所有可能的结果，并为每个结果分配概率。结果可变性通常包括项目可能比预期更长的概率，以及未能解决客户问题的概率。<br>
+一旦你列出所有结果，为结果的价值进行概率权重求和，你会对投资汇报有更好的感觉。</p>
+<h1 id="设计和范围界定">设计和范围界定</h1>
+<p>当投资方向确定后，下一组有用的模型关于产品设计和设计范围界定。</p>
+<h2 id="倒推工作-倒置工作流程">倒推工作 （倒置工作流程）</h2>
+<p>不同于「找到问题，思考解决方案」的工作方式。你可以从完美的解决方案开始倒推回当前日期，找到从哪里开始工作。</p>
+<figure data-type="image" tabindex="5"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afcaf849-dc85-4c83-a54c-4d1a02f8cd82/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-5">这个模型为什么有用？</h3>
+<p>大部分团队「向前工作」，这是一种评估实现最终影响的成本，然后决定要优化什么实际内容的工作方式。</p>
+<p>「倒推工作」让你可以专注于对客户来说，最有影响力，最长期的的工作内容，因为你在从一个完美的解决方案出发，实施逆向工程。</p>
+<p>只关注逆向工程并不总是最好的，它只是提供了不同的视角。能从两种视角进行规划是更好的。</p>
+<blockquote>
+<p>这几乎是金数据产品设计团队最流行的一种工作方式，我们总是设计一个完整的方案，然后从方案或时间倒退，找到工作的着手点。</p>
+</blockquote>
+<h2 id="信心决定速度和质量">信心决定速度和质量</h2>
+<p>你的信心 i) 当前手上问题的重要程度，以及 ii) 解决方案的正确程度，共同决定产品和质量的平衡。</p>
+<figure data-type="image" tabindex="6"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ba98e0a7-e5cb-4109-82f5-163ac5e92de8/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-6">这个模型为什么有用？</h3>
+<p>这个心智模型，帮助你建起一个权衡速度与时间的晴雨表。上图中极端的两级，可以很容易地理解。</p>
+<p>右侧：你非常有信心，当前正在解决的问题对客户来说是最重要的（已通过客户进行验证），同时你清楚要做什么去解决这个问题。这种情况，你不应该走任何捷径。因为你明确客户长期需要这个功能，所以它应该质量非常好.(eg, 有可扩展性，是设计愉悦的）</p>
+<p>左侧：你尚未验证这些内容对客户的重要性。在这个场景下，你花越多的时间构建，就承担了更多的风险，你在为可能都不存在的问题做功能。因此，你应该尽可能快地发布一些东西（哪怕是错误的），去验证它是否值得投入精力构建。例如，为一些不存在的功能做landing page，已验证客户是否感兴趣。</p>
+<blockquote>
+<p>大部分人都知道MVP的重要性，但是对看好功能的重仓投资，其实是一线产品经理忽视的。</p>
+</blockquote>
+<h2 id="解决整体用户体验">解决整体用户体验</h2>
+<p>用户体验并非止步于界面。在使用产品前后发生的所有事情，都值得被好好设计。</p>
+<figure data-type="image" tabindex="7"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/51da60a4-18a5-4753-8aad-1e7697b0e1d5/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-7">这个模型为什么有用？</h3>
+<p>设计产品时，我们倾向于关注在产品内的体验（e.g. 软件内的用户界面）。</p>
+<p>与之同样重要的是设计市场体验（如何获取客户，以及在客户试用产品之前管理他们的预期），产品支持/遇险体验（当产品表现不及预期时，你的团队/公司如何响应客户）。</p>
+<p>特别是极致优秀的产品遇险体验，是一种赢得长期客户新人的好机会。例如，亚马逊的退货服务，赢得了如你我一样的客户信任。</p>
+<blockquote>
+<p>电商零售的实践是无理由的退换货服务；海外某些Saas产品也 follow 随时退订/解绑卡片的逻辑。</p>
+</blockquote>
+<h2 id="实验-单一特性-平台">实验、单一特性、平台</h2>
+<p>有3中产品开发的模式：实验式、单一特性式、平台功能式。每一种都有其目标以及权衡速度与质量的方式。</p>
+<figure data-type="image" tabindex="8"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1711be8c-60bd-4192-b32f-ed603c751e4f/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-8">这个模型为什么有用？</h3>
+<p>先识别出你的产品是哪种开发方式，你能更清晰地定义清楚目标以及正确权衡时间和质量之间的平衡。</p>
+<p>实验是为「学习/了解信息」而存在的，因此你可以在新功能或新平台上发布，让用户验证。如果你的目的是为了获取更多信息，你可以做更多不那么精致的事情：为了更快实现，用更hack的实现；伪装自己产品非常复杂，实际上背后是手工操作。</p>
+<p>与实验不同的是，平台类特性是永存的。其他人会基于平台产品构建功能，因此平台产品上线后再修改是极具破坏性的。</p>
+<p>因此，平台必须具有非常高的质量（e.g. 稳定性、高性能、高可扩展性等等），同时具备真正有用的功能。一个构建平台产品的好原则是：和你的第一个客户一起来做。比如说，另外一个在你的平台之上构建产品的团队。这样一来，你必须得保证你的平台对客户是随时可用的。</p>
+<h2 id="反馈环">反馈环</h2>
+<p>产品中的因果关系是正反馈&amp;负反馈回路环环相扣的结果。</p>
+<figure data-type="image" tabindex="9"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/481f1d4f-2d81-4141-97d4-3081bf251129/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-9">这个模型为什么有用？</h3>
+<p>反馈回路告诉我们，产品增长和衰退的最大驱动因素可能来自产品中的其他部分。</p>
+<p>举个例子，你的团队是支付团队，KPI是产生更多的信用卡支付流程。你可以从用户获取团队得到正反馈，更多的新用户带来更多可能舒勇信用卡付费的客户。然而你会从现金支付团队得到一个负反馈，他们的KPI是帮客户更容易地进行现金结算。</p>
+<p>了解这些反馈回路有助于使用更正确的策略（e.g. 你可以在获取新用户时采用通用的拉新策略，以增长总支付单数），或了解当前产品监控指标中的负面因素(e.g. 信用卡支付单数下降，是因为现金交易团队做的非常好，而不是因为信用卡团队很糟糕）</p>
+<h2 id="飞轮递归反馈回路">飞轮（递归反馈回路）</h2>
+<p>正、负反馈由自己产生，并由自己加速驱动整个过程。</p>
+<figure data-type="image" tabindex="10"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/887e6fe8-9acf-49cf-b690-9487afce63b2/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-10">这个模型为什么有用？</h3>
+<p>飞轮的概念与反馈环相关，在管理平台产品或交易市场类产品时更加重要。例如，设想你是Apple iOS APP市场的管理者，你有两类用户：开发者和APP用户。</p>
+<p>飞轮效应体现为：更多的用户吸引了更多的开发者（有机会售卖自己的APP），反过来更多的开发者（做了更多应用）吸引更多APP用户（可以消费更多类型的应用）， 因此又吸引了更多的开发者，循环往复。只要你持续运转飞轮，你不仅仅是增长，而是在飞速增长。</p>
+<p>如果你在管理者一个飞轮，你得确保让它在正确的方向上转，因为它反着转的影响也非常强大。例如，市场上应用太多，新用户不容易被用户发现，开发者的增长会减速，从而破坏飞轮效应。</p>
+<h1 id="构建和迭代">构建和迭代</h1>
+<p>当你在构建、运营、迭代已有产品时，以下这组心智模型对你有帮助。</p>
+<h2 id="收益递减">收益递减</h2>
+<p>当你关注于提升同一个产品领域时，单位投入产生的用户价值会随着时间递减。</p>
+<figure data-type="image" tabindex="11"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c72f444-3ca7-4a0d-b067-7e1f8b6cef48/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-11">这个模型为什么有用？</h3>
+<p>假设你和团队基于用户反馈对产品进行日常迭代，你最终会进入一个阶段：你怎么做都不可能做的更好了。这个时候，你和团队就改去发现一些新东西。</p>
+<h2 id="局部最大值">局部最大值</h2>
+<p>与收益递减相关，局部最大化是指当渐进式的产品优化无法创造更多的用户价值，迫使你在产品上做出进一步的改变。</p>
+<figure data-type="image" tabindex="12"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e47c8c3-7291-4751-a26a-b4a00021748a/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-12">这个模型为什么有用？</h3>
+<p>这个模型与收益递减模型高度相关，特指做任何改进都不会带来更多收益。迭代已经没有任何意义，唯一的出路就是产品创新。</p>
+<p>这个概念最近 因为 Eugene Wei的文章《看不见的渐近线》而产生病毒式的传播，文中讲述了一个例子：亚马逊 foresaw 演变为 Prime的故事。</p>
+<h2 id="20-版本是骗人的">2.0 版本是骗人的</h2>
+<p>创造一个产品时，不要觉得2.0版本一定会发布。把1.0做完整，因为它可能是最后一个版本。</p>
+<h3 id="这个模型为什么有用-13">这个模型为什么有用？</h3>
+<p>当定义1.0版本时，你会记录所有酷炫的，可以加在2.0版本中的feature。 但是你得承认，未来的版本可能永远都不会发布。因为你不清楚发布当前版本后会发生什么：公司策略可能会变化，你的Tech lead离职，或者全团队整个转向其他项目。</p>
+<p>对了应对这些场景，你得确保交付的是一个「完整产品」，即便永远不迭代，在可见的未来里，产品对用户来说都是有用的。不要想着未来可以优化，当前就发布了一个可能没法完整解决问题的产品。</p>
+<h2 id="freeroll">Freeroll！</h2>
+<p>快速交付某些功能不会带来任何负面影响，还有可能会带来收益。</p>
+<blockquote>
+<p>Freeroll 是扑克游戏里的一种玩法，玩家可以免费丢一次骰子</p>
+</blockquote>
+<figure data-type="image" tabindex="13"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eaf16b04-f91f-4003-b27e-73d935ff5f14/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-14">这个模型为什么有用？</h3>
+<p>如果当前用户体验非常差，任何根据直觉做的产品优化都会让情况变得更好。这种情况下做的改变就被称为Freeroll。和修复缺陷不一样，因为bug通常意味着某个功能没有按照设计预期工作。</p>
+<blockquote>
+<p>这没啥意思，我们得咋能让自己陷入这种僵局呢...我就懒得翻译后一句了。</p>
+</blockquote>
+<h2 id="大部分价值在10版本之后产生">大部分价值在1.0版本之后产生</h2>
+<p>发布产品之后，你会从用户身上学到很多。不要浪费利用这些知识迭代产品的机会。</p>
+<figure data-type="image" tabindex="14"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcfaee20-63fd-4c79-9d15-0a0b90fcb53d/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-15">这个模型为什么有用？</h3>
+<p>知道用户开始使用产品，产品的一切都是基于假设来创建的。即便你的团队做了足够的「pre-launch 测试」，比方说：客户访谈、原型测试、定量分析、beta 版本测试，当产品100%开放后，仍然有一些意料外的行为或边界场景会发生。</p>
+<blockquote>
+<p>所以产品要持续改进！</p>
+</blockquote>
+<h2 id="关键失败指标-key-failure-indicator">关键失败指标 （Key Failure Indicator)</h2>
+<p>和KPI一起来看KFI，列出任何情况下你都不能出错的指标，确保团队关注在健康的增长曲线。</p>
+<figure data-type="image" tabindex="15"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a89554c9-5795-41f2-8bd1-8c1e2a6e2982/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<h3 id="这个模型为什么有用-16">这个模型为什么有用？</h3>
+<p>团队通常只围绕KPI去构建，而忽略了KPI带来的负面效应。<br>
+一个经典的案例是：在登录页面上提升注册转化率，但没有关注到总客户数没有增长（发现的时候已经晚了），因为登录转化率下降了60%。这些都出自于同一次改动。</p>
+<p>KFI在这时会确保你的团队只围绕着健康的产出工作（例如，列出登录转化率不可以下降）</p>
+<p><strong>一些 KPI/KFI  例子：</strong></p>
+<ol>
+<li>在保持利润的同时增长收入</li>
+<li>在保持feature B的使用率的情况下，增长feature A的使用率</li>
+<li>在不增加服务团队工作量的情况下增加feature A的使用率</li>
+</ol>
+<h1 id="一个网格系统而不是清单">一个网格系统，而不是清单</h1>
+<p>这句话可能会让一些人不满意：目前据我所知没有任何一种方法可以告诉你如何使用这些心智模型。假如你试图将其视作一个清单，最终结局是你做了一些心理训练，搞得自己和团队都非常难受。</p>
+<p>相反，它们只是你决策网格中的一部分，帮你做出更好的产品决策，是你向团队解释沟通决策来源的工具。</p>
+<p>随着你累积更多的模型，最好是通过经验来累积，你会越来越擅长此道。</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://courtneychow88.github.io/post/slip-box-note-taking/">
+              <h3 class="post-title">
+                下一篇：卡片盒笔记工作法初探
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">善终如始。</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  使用<a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>客户端写作 | <a class="rss" href="https://courtneychow88.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
